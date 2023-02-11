@@ -54,7 +54,7 @@ img {
 
 .hero {
     height: 100vh;
-    background-color: rgba(242, 206, 218, 0.5);
+    background-color: rgba(248, 237, 240, 1)
 }
 
 .header {
@@ -186,9 +186,38 @@ img {
     bottom: 0;
 }
 
+.advantages__list {
+    display: flex;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    justify-content: space-between;
+}
+.advantages__item {
+    width: 198px;
+    height: 140px;
+    text-align: center;
+}
+
+.advantages__title {
+    font-family: 'Hind Madurai';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+margin: 10px;
+}
+.advantages__text {
+    font-family: 'Hind Madurai';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: rgba(0, 0, 0, 0.5);
+}
+
 .order {
     padding: 73px 0px;
-    background-color: rgba(242, 206, 218, 0.5);
+    background-color: rgba(248, 237, 240, 1)
 }
 
 .order__container {
