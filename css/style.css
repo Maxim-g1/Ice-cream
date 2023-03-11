@@ -192,6 +192,7 @@ img {
     margin-bottom: 120px;
     justify-content: space-between;
 }
+
 .advantages__item {
     width: 198px;
     height: 140px;
@@ -200,19 +201,20 @@ img {
 
 .advantages__title {
     font-family: 'Hind Madurai';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 28px;
-margin: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 10px;
 }
+
 .advantages__text {
     font-family: 'Hind Madurai';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-color: rgba(0, 0, 0, 0.5);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .order {
@@ -279,3 +281,65 @@ color: rgba(0, 0, 0, 0.5);
     z-index: -10;
     top: 450px
 }
+
+.menu {}
+
+.container {}
+
+.menu__title {}
+
+.menu__nav {}
+
+.nav__item {}
+
+.menu__product {}
+
+.img__product {}
+
+.product__subtitle {}
+
+.product__text {}
+
+.product__sale {}
+
+card:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.featbeak {}
+
+.featbeak__content {}
+
+.preveu {}
+
+.preveu__had {
+    display: flex;
+}
+
+.avatar {}
+
+.avatar__img {}
+
+.preveu__title-block {}
+
+.preveu__title {}
+
+.preveu__subtitle {}
+
+.preveu__text {}
+
+.preveu-slider {}
+
+.review-slider__ctrl {}
+
+.review-slider__ctrles {}
+
+.review-slider__ctrl-img {}
+
+.review-slider__list {}
+
+.review-slider__item {}
+
+.review-slider__link {}
+
+.avatar_size_small {}
