@@ -282,19 +282,49 @@ img {
     top: 450px
 }
 
-.menu {}
+.menu {
+    padding-top: 70px;
+}
 
 .container {}
 
-.menu__title {}
+.menu__title {
+    text-align: center;
+    margin-bottom: 60px;
 
-.menu__nav {}
+}
+
+.menu__nav {
+    display: flex;
+    justify-content: space-between;
+}
 
 .nav__item {}
 
 .menu__product {}
 
-.img__product {}
+.product {
+    display: flex;
+    align-items: center;
+}
+
+.product:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.product__img-wrap {
+    flex: 1 1 50%;
+}
+
+.img__product {
+    width: 50%;
+    height: 50%;
+    object-fit: contain
+}
+
+.product__info {
+    flex: 1 1 50%;
+}
 
 .product__subtitle {}
 
@@ -302,9 +332,7 @@ img {
 
 .product__sale {}
 
-card:nth-child(even) {
-    flex-direction: row-reverse;
-}
+
 
 .featbeak {}
 
