@@ -316,11 +316,8 @@ img {
     flex: 1 1 50%;
 }
 
-.img__product {
-    width: 50%;
-    height: 50%;
-    object-fit: contain
-}
+
+
 
 .product__info {
     flex: 1 1 50%;
@@ -332,11 +329,24 @@ img {
 
 .product__sale {}
 
+.sale__old{
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration-line: line-through;
+    letter-spacing: 0.1em;
+    font-size: 15px;
+}
 
+.featbeak {
+   margin-top: 230px;
+}
 
-.featbeak {}
+.featbeak__content {
+   
+}
 
-.featbeak__content {}
+.featbeak__column{
+   
+}
 
 .preveu {}
 
@@ -350,13 +360,38 @@ img {
 
 .preveu__title-block {}
 
-.preveu__title {}
+.preveu__title {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+color: #000000;
 
-.preveu__subtitle {}
+}
 
-.preveu__text {}
+.preveu__subtitle {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+}
 
-.preveu-slider {}
+.preveu__text {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+opacity: 0.7;
+}
+
+.preveu-slider {
+    flex: 1 1 50%;
+ 
+}
 
 .review-slider__ctrl {}
 
@@ -364,10 +399,219 @@ img {
 
 .review-slider__ctrl-img {}
 
-.review-slider__list {}
+.review-slider__list {
+    display: flex;
+    justify-content: space-between;
+}
 
-.review-slider__item {}
+.review-slider__item {
+    display: flex;
+    align-items: center;
+}
 
 .review-slider__link {}
 
 .avatar_size_small {}
+
+.featbeak__img-block{
+    flex: 1 1 50%;
+}
+.featbeak__img{
+   
+}
+
+.application {
+    background-color:  rgba(248, 237, 240, 1);
+ margin-top: 260px;
+height: 635px;
+}
+
+.application__img-wrap {
+    flex: 1 1 50%;
+  margin-top: 60px;
+}
+.application__img {
+    width: 305px;
+height: 627px;
+
+}
+.application__content {
+    flex: 1 1 50%;
+  margin-top: 90px;
+}
+.application__title {
+    
+}
+.application__text {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.application__list {
+}
+.application__item {
+  margin-bottom: 20px;
+}
+.application__item-img {
+}
+
+
+.application__img-store {
+    width: 200px;
+    height: 88px;
+margin-top: 30px;
+}
+.application__container{
+  display: flex; 
+}
+
+.application__img-play{
+    width: 200px;
+    height: 80px;
+margin-top: 30px;
+}
+
+.question{
+
+}
+
+.question__title {
+    font-size: 44px;
+line-height: 52px;
+text-align: center;
+margin-top: 200px;
+margin-bottom: 30px;
+}
+.question__input {
+    background: #FAFAFA;
+    border: none;
+    width: 500px;
+height: 74px;
+margin-bottom: 150px;
+}
+
+.question__input-block{
+    align-items: center;
+text-align: center;
+}
+
+.question__input-block .btn{
+    width: 134px;
+height: 74px;
+}
+
+.footer {
+    padding: 86px 0px 140px;
+    background-color: rgba(10, 8, 8, 1);
+    height: 381px;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 92px;
+}
+
+
+
+.footer .logo {
+    margin-bottom: 20px;
+    width: 79px;
+height: 79px;
+}
+
+
+.footer__text {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer__social{
+    color: white;
+   margin-top: 18px;
+}
+.footer__social-two{
+    color: white;
+}
+
+
+
+.site__link {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-menu {
+    justify-content: space-between;
+    flex: 1;
+    column-gap: 30px;
+    display: flex;
+}
+
+.footer-menu__block {
+    font-family: 'Roboto', sans-serif;
+}
+
+.foter-menu__block-title {
+    margin-left: 40px;
+    margin-bottom: 14px;
+}
+
+.footer-menu__list {
+    animation: rotate 5s 1s infinite linear;
+}
+
+.footer-menu__item {
+    margin-bottom: 14px;
+    font-size: 15px;
+}
+
+.footer-menu__link {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+.social__list {
+    display: flex;
+    column-gap: 10px;
+    margin-top: 12px;
+}
+
+.social__item {
+    width: 15px;
+    height: 15px;
+}
+
+.socual__link {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.social__icon {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.footer__sub .btn{
+    width: 125px;
+height: 55px;
+padding-left: 17px;
+padding-right: 17px;
+}
+
+.footer__input{
+    width: 263px;
+height: 55px;
+background: none;
+color: white;
+border: 2px solid #D64374;
+border-radius: 5px;
+padding-left: 30px;
+opacity: 0.5;
+}
+
+.footer__sub{
+    margin-top: 16px;
+}
+
